@@ -1,7 +1,0 @@
-import java.util.Random;
-public class twentySidedDice{
-    public static void main(String[]args){
-        Random rand = new Random ( );
-        int rollOnce = rand.nextInt(20) + 1;
-    }
-}
